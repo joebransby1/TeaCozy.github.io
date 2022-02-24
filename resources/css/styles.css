@@ -69,6 +69,7 @@ h5 {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
+    justify-content: center;
 }
 
 .img {

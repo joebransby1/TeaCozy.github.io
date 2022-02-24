@@ -39,16 +39,18 @@ h5 {
 }
 
 .mission-img {
-    width: 1200px;
+    max-width: 1200px;
     height: 700px;
     display: flex;
     align-content: center;
+    margin: 40px auto 40px auto;
 }
 
 .mission-txt {
     align-content: center;
-    padding: 250px 120px;
-    width: 1000px;
+    margin: auto;
+    background-color: black;
+    width: 100%;
 }
 
 .tea-of-the-month {

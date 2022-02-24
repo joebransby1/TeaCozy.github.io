@@ -53,20 +53,27 @@ h5 {
     width: 100%;
 }
 
-.tea-of-the-month {
-    display: flex;
-    padding: 5px 5px;
-}
-
 .tea-of-the-month h2, h4 {
     align-items: center;
     padding: 10px 10px;
     text-align: center;
-} 
+    width: 100%;
+    margin: auto;
+}
+
+.tea-of-the-month h4 {
+    margin-bottom: 25px;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
 
 .img {
-    width: 300px;
-    height: 200px;
+    width: 30%;
+    height: auto;
     display: inline-flex;
     flex-direction: column;
     padding: 10px 10px;
@@ -76,6 +83,30 @@ h5 {
     padding: 10px 10px;
 }
 
+.locations {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url("file:///C:/Users/Joe/Tea%20Cozy%20Project/resources/media/img-locations-background.webp");
+    background-color: #cccccc;
+    height: 500px;
+    opacity: 1;
+    text-align: center;
+}
+
+.loc {
+    color: seashell;
+    display: inline-flex;
+    flex-direction: column;
+    padding: 15px 40px 15px 40px;
+    margin: auto;
+}
+
+.loc ul {
+    background-color: black;
+    padding: 15px 40px 15px 40px;
+}
+
 .copyright {
     float: left;
+    margin-left: 20px;
 }
